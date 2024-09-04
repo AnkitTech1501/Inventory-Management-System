@@ -27,8 +27,8 @@
 </nav>
 <div class="container-fluid">
     <div clas="row">
-        <div class="col-md-2 border-3  border-end">
-            <h6 class="mt-2">Main</h6>
+        <div class="col-md-2 border-3  border-end Sidebar">
+            <h6 class="mt-2">MAIN</h6>
             <button class="accordion">Dashboard</button>
             <div class="panel">
                 <ul>
@@ -44,7 +44,7 @@
                     <li>Create Emarts</li>
                 </ul>
             </div>
-            <h6 class="mt-2">Inventory</h6>
+            <h6 class="mt-2">INVENTORY</h6>
             <button class="accordion">Products</button>
             <div class="panel">
                 <ul>
@@ -60,11 +60,47 @@
                     <li>Create Disounts</li>
                 </ul>
             </div>
+            <button class="accordion">Category</button>
+            <div class="panel">
+                <ul>
+                    <li>List Of Category</li>
+                    <li>Create Category</li>
+                </ul>
+            </div>
+            <button class="accordion">Brand</button>
+            <div class="panel">
+                <ul>
+                    <li>List Of Brand</li>
+                    <li>Create Brand</li>
+                </ul>
+            </div>
             <button class="accordion">Shipper Details</button>
             <div class="panel">
                 <ul>
                     <li>List Of Shippers</li>
                     <li>Create Shippers</li>
+                </ul>
+            </div>
+            <button class="accordion">Purchase</button>
+            <div class="panel">
+                <ul>
+                    <li>Purchase List</li>
+                </ul>
+            </div>
+            <button class="accordion">Sales</button>
+            <div class="panel">
+                <ul>
+                    <li>Sales List</li>
+                    <li>Sales Return List</li>
+                </ul>
+            </div>
+            <button class="accordion">Stocks</button>
+            <div class="panel">
+                <ul>
+                    <li>List of Stocks</li>
+                    <li>Sales Return List</li>
+                    <li>Transfer Stocks</li>
+                    <li>Stcoks Analysis</li>
                 </ul>
             </div>
         </div>
