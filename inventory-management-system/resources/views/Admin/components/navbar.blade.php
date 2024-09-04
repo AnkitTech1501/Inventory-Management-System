@@ -25,17 +25,47 @@
         </div>
     </div>
 </nav>
-<div class="container-fluid customContainer">
+<div class="container-fluid">
     <div clas="row">
         <div class="col-md-2 border-3  border-end">
-            <button class="accordion">Section 2</button>
+            <h6 class="mt-2">Main</h6>
+            <button class="accordion">Dashboard</button>
             <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <ul>
+                    <li>Admin Dashboard</li>
+                    <li>Sales Dashboard</li>
+                </ul>
             </div>
-
-            <button class="accordion">Section 3</button>
+            <h6 class="mt-2">EMARTS</h6>
+            <button class="accordion">Emarts</button>
             <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <ul>
+                    <li>List Of Emarts</li>
+                    <li>Create Emarts</li>
+                </ul>
+            </div>
+            <h6 class="mt-2">Inventory</h6>
+            <button class="accordion">Products</button>
+            <div class="panel">
+                <ul>
+                    <li>List Of Products</li>
+                    <li>Create Products</li>
+                    <li>Expired Products</li>
+                </ul>
+            </div>
+            <button class="accordion">Disounts</button>
+            <div class="panel">
+                <ul>
+                    <li>List Of Disounts</li>
+                    <li>Create Disounts</li>
+                </ul>
+            </div>
+            <button class="accordion">Shipper Details</button>
+            <div class="panel">
+                <ul>
+                    <li>List Of Shippers</li>
+                    <li>Create Shippers</li>
+                </ul>
             </div>
         </div>
     </div>

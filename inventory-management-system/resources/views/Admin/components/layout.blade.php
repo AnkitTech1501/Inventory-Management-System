@@ -32,7 +32,6 @@
                 button.addEventListener("click", function() {
                     // Get the panel associated with the clicked accordion
                     var panel = this.nextElementSibling;
-
                     // Check if this panel is already open
                     var isOpen = panel.style.maxHeight;
 

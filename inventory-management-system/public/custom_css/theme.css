@@ -23,13 +23,18 @@
     background-color: #ffffff;
     color: #444;
     cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
+    padding: 14px;
+    margin-top:10px;
+    width: 98%;
+    border: white;
     text-align: left;
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .Accactive,
@@ -57,19 +62,6 @@
     transition: max-height 0.2s ease-out;
 }
 
-.customContainer {
-    display: flex;
-    flex-direction: row;
-    height: 100vh; /* Make the container take up the full height of the viewport */
-}
-
-.customContainer > .col-md-2 {
-    background-color: #ffffff;
-    border-right: 3px solid #ddd; /* Adjust border style */
-    height: 100%; /* Ensure the sidebar takes the full height of its container */
-    overflow-y: auto; /* Allow scrolling if content overflows */
-}
-
 /* Optional: style the sidebar content to be scrollable if needed */
 .panel {
     padding: 0 18px;
@@ -77,4 +69,9 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+.panel > ul > li{
+    color : #8a8bf1;
+    margin-top:10px;
+    cursor:pointer;
 }
